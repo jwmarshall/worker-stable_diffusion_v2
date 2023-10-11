@@ -18,7 +18,7 @@ INPUT_SCHEMA = {
         'type': int,
         'required': False,
         'default': 432,
-        'constraints': lambda height: 128 <= width <= 1080
+        'constraints': lambda height: 128 <= height <= 1080
     },
     'prompt_strength': {
         'type': float,

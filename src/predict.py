@@ -64,7 +64,7 @@ class Predictor:
             width=width,
             height=height,
             guidance_scale=guidance_scale,
-            noise_strength=noise_strength,
+            strength=noise_strength,
             generator=generator,
             num_inference_steps=num_inference_steps,
         )
