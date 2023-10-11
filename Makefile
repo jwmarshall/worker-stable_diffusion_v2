@@ -1,5 +1,5 @@
 SHELL=/usr/bin/env bash
-PROJECT_NAME=worker-stable_diffusion
+PROJECT_NAME=worker-stable_diffusion_v2
 BRANCH_NAME=$(shell if [ -z $$BRANCH_NAME ]; then git symbolic-ref -q --short HEAD; else echo $$BRANCH_NAME; fi)
 DOCKER_REPO=jwmarshall
 
