@@ -44,12 +44,6 @@ INPUT_SCHEMA = {
         'default': 7.5,
         'constraints': lambda guidance_scale: 0 < guidance_scale < 20
     },
-    'noise_strength': {
-        'type': float,
-        'required': False,
-        'default': 0.35,
-        'constraints': lambda noise_strength: 0 < noise_strength < 1
-    },
     'scheduler': {
         'type': str,
         'required': False,
